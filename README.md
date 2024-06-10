@@ -10,6 +10,6 @@ PgnConverterJS is a small javascript library designed to very quickly perform a 
 
 It does not error check for valid PGN files or positions, although it will error check PGN to smith conversion to ensure the correct piece is being moved.
 
-It was built using ChatGPT-4o by feeding it a program written in C# and having it translated then debugging to resolve issues.
+It was built using ChatGPT-4o by feeding it a program I wrote in C# and having it translated then debugging to resolve issues.
 
 It is designed for high speed parsing and the C# version was capable of converting 25,000 PGN lines into Smith notation in under 1 second on my local PC.
